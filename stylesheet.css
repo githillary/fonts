@@ -4,8 +4,8 @@
 
 @font-face {
     font-family: 'basier_circleregular';
-         url('basiercircle-regular-webfont.woff2') format('woff2'),
-         url('basiercircle-regular-webfont.ttf') format('truetype');
+    src: url('https://raw.githubusercontent.com/githillary/fonts/master/basiercircle-regular-webfont.woff2') format('woff2');
+    src: url('https://raw.githubusercontent.com/githillary/fonts/master/basiercircle-regular-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
