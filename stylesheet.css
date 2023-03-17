@@ -6,3 +6,7 @@
          url('https://raw.githubusercontent.com/githillary/fonts/master/basiercircle-regular-webfont.ttf') format('truetype');
 
 }
+
+:root {
+  --font: 'basier_circleregular', serif !important;
+}
