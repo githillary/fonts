@@ -20,6 +20,19 @@ Powered by Super.so
 /*-------------------------------------------*/
 
 :root {
+    --color-bg-default: #fff !important;
+    --color-border-default: rgba(0,0,0,0.2) !important;
+    --color-card-bg: transparent !important;
+    
+    --color-text-default: #000 !important;
+    --color-text-gray: var(--color-bg-default) !important;
+    
+    --shadow-lg: 0 40px 80px -20px rgb(0,0,0,0.1) !important;
+    --shadow-md: 0 20px 40px -20px rgb(0,0,0,0.2) !important;
+    --shadow-sm: 0 10px 20px -10px rgb(0,0,0,0.1) !important;
+
+    --transition: all .3s cubic-bezier(0.8,0.04,0.4,1) !important;
+    --column-spacing: 30px !important;
     --font: 'ny', serif !important;
 }
 
@@ -275,4 +288,3 @@ p {
 
 #block-4e524e5a61e54ff0b5fcb8aab8e2d0cb {
     max-width: 85% !important;
-}
